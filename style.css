@@ -10,6 +10,7 @@
     justify-content: space-around;
     color: white;
     background-color: black;
+    font-size: 60%;
     
 
 
@@ -56,4 +57,89 @@
     justify-content: space-around;
     background-color: black;
     color: white;
+}
+@media all and (min-width:200px) and (max-width:1300px) {
+    .images4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        color: white;
+        background-color: white;
+        border: 1px;
+    
+}
+.image{
+    display: block;   
+    margin-top: 5%;
+     width: 90%; 
+    border-radius:20px ; 
+    background-color: darkslateblue;
+    margin-left: auto;
+    margin-right: auto;       
+}
+#all{
+    overflow: hidden;
+    border: solid 8px;
+    font-size: 20px;
+    
+
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    font-size: 10%;
+    
+
+
+}
+.image{
+    display: block;   
+    margin-top: 5%;
+     width: 90%; 
+    border-radius:50px ; 
+    background-color: darkslateblue;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+    
+}
+ #image1{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;  
+   
+}
+.image2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    
+}
+.images3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.images4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    background-color: white;
+    border: 1px;
+
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
 }
